@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security Demo Site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Security Demo Site</h1>
+        <p>This site was built to showcase my skills as a Linux administrator and security engineer.</p>
+        
+        <h2>🔧 Tech Stack</h2>
+        <ul>
+            <li>Flask (Python backend)</li>
+            <li>Nginx as reverse proxy</li>
+            <li>Let's Encrypt for HTTPS</li>
+            <li>Fail2Ban for brute-force protection</li>
+            <li>iptables & ufw for firewall rules</li>
+            <li>DNS configured with BIND9</li>
+            <li>DNSSEC enabled</li>
+            <li>Systemd service for app</li>
+            <li>Auditd for system auditing</li>
+            <li>Caldera / MITRE ATT&CK testing environment</li>
+            <li>Logs are open & public – transparency first</li>
+        </ul>
+
+        <h2>🎯 Goal</h2>
+        <p>Showcase a real-world hardened setup. If you think you can break in — go ahead. Logs are live. Every action is monitored.</p>
+
+        <p><a href="/logs">View live logs</a> (coming soon)</p>
+    </div>
+</body>
+</html>
+
